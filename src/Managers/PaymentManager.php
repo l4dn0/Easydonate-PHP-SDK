@@ -39,12 +39,12 @@ class PaymentManager
     }
 
     public function setEmail(string $email) {
-        $this->email = $email ?? null;
+        $this->email = $email ?? '';
         return $this;
     }
 
     public function setCoupon(string $coupon) {
-        $this->coupon = $coupon ?? null;
+        $this->coupon = $coupon ?? '';
         return $this;
     }
 
